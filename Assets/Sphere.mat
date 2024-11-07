@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Sphere
-  m_Shader: {fileID: 4800000, guid: c7a337bb131e3d24d918cd979eb94207, type: 3}
+  m_Shader: {fileID: 4800000, guid: c284c8a48913f974e88475731ce36571, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
