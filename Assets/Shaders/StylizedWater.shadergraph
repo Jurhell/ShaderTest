@@ -101,6 +101,9 @@
         },
         {
             "m_Id": "3ab69c04c8754ca0a9cf2ab038b63d05"
+        },
+        {
+            "m_Id": "16226e98387243739b0052b351b34307"
         }
     ],
     "m_GroupDatas": [
@@ -126,6 +129,9 @@
         },
         {
             "m_Id": "c66f0e832f604764b18911820d4f7bae"
+        },
+        {
+            "m_Id": "3786ce95820b49e293da0c03fbf7e402"
         }
     ],
     "m_Edges": [
@@ -323,6 +329,20 @@
                     "m_Id": "fbcfc9608e6a4c19965e7868c8edcc33"
                 },
                 "m_SlotId": 2
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "c6aeea342c654a8689472af3497b17d0"
+                },
+                "m_SlotId": 2
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "cd0c55b2155040318efcfcdb737deaab"
+                },
+                "m_SlotId": 0
             }
         },
         {
@@ -695,6 +715,71 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.SubGraphNode",
+    "m_ObjectId": "16226e98387243739b0052b351b34307",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "PanningUVs",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -2027.3924560546875,
+            "y": 443.0375061035156,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "4a9954df37f542d18b85474f22579760"
+        },
+        {
+            "m_Id": "458f497cd81c4cd59bc4f43795df27ec"
+        },
+        {
+            "m_Id": "ede9542b7d2d428aa39bee9d92c653b0"
+        },
+        {
+            "m_Id": "da9c12dab6e94b8f9566ff9a70d390fb"
+        },
+        {
+            "m_Id": "fb0af89d49d942138c85b8e98407bca9"
+        },
+        {
+            "m_Id": "e67a06616f064c81abe6937dda0db5df"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"95db43aab6792f441a40722a87f6c29e\",\n        \"type\": 3\n    }\n}",
+    "m_PropertyGuids": [
+        "37dc398b-1a12-4e83-bcfc-af992746a0b4",
+        "5133d1bb-72f9-4b08-9710-022c3f287356",
+        "3d3a0c65-ea91-40d3-94c7-6e683df1a5fa",
+        "c17a1b52-078b-4147-ac79-5c0f82db1438",
+        "07b9272c-0ac0-4b69-95f0-42c54b9b4125"
+    ],
+    "m_PropertyIds": [
+        1414568194,
+        1615502314,
+        -282931107,
+        -1217020169,
+        -1395440078
+    ],
+    "m_Dropdowns": [],
+    "m_DropdownSelectedEntries": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "1d2de7ba4a554111847e7383789780f7",
     "m_Title": "Horizon Color Lerping",
@@ -890,6 +975,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "3786ce95820b49e293da0c03fbf7e402",
+    "m_Title": "PanningUVs",
+    "m_Content": "Takes in UVs then adds movement to them as well as some tiling and an offset.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -2022.0,
+        "y": 278.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "394e654c09e349f5adcbab5c3519bf0c",
     "m_Id": 0,
@@ -1058,6 +1163,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "458f497cd81c4cd59bc4f43795df27ec",
+    "m_Id": -1217020169,
+    "m_DisplayName": "Tiling",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Tiling",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "4a00479e648e4bb78cbe046ef14dd16d",
     "m_Id": 1,
@@ -1078,6 +1198,27 @@
         "z": 0.0,
         "w": 0.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
+    "m_ObjectId": "4a9954df37f542d18b85474f22579760",
+    "m_Id": -282931107,
+    "m_DisplayName": "UV",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_UV",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_Labels": []
 }
 
 {
@@ -2391,6 +2532,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "da9c12dab6e94b8f9566ff9a70d390fb",
+    "m_Id": 1615502314,
+    "m_DisplayName": "Speed",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Speed",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "ddb34e99731b43eb8de54baf0d3fea50",
     "m_Id": 2,
@@ -2493,6 +2649,27 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
+    "m_ObjectId": "e67a06616f064c81abe6937dda0db5df",
+    "m_Id": 1,
+    "m_DisplayName": "UV",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "UV",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SceneColorNode",
     "m_ObjectId": "e88ed15cc7074fdabe84c8e15b42d31d",
     "m_Group": {
@@ -2538,6 +2715,21 @@
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "R",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "ede9542b7d2d428aa39bee9d92c653b0",
+    "m_Id": 1414568194,
+    "m_DisplayName": "Direction",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Direction",
     "m_StageCapability": 3,
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
@@ -2653,6 +2845,27 @@
     },
     "m_Labels": [],
     "m_Space": 2
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
+    "m_ObjectId": "fb0af89d49d942138c85b8e98407bca9",
+    "m_Id": -1395440078,
+    "m_DisplayName": "Offset",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Offset",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_Labels": []
 }
 
 {
