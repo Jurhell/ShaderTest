@@ -137,7 +137,7 @@ Material:
     - _Lighting_Hardness: 1
     - _Lighting_Smoothness: 0.587
     - _Metallic: 0
-    - _Normals_Scale: 0.012
+    - _Normals_Scale: 0.12
     - _Normals_Speed: 0.073
     - _Normals_Strength: 0.277
     - _OcclusionStrength: 1
@@ -167,13 +167,13 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Deep_Color: {r: 0, g: 0.3098039, b: 0.5960784, a: 0.36862746}
+    - _Deep_Color: {r: 0.013572444, g: 0.30561215, b: 0.5754717, a: 0.36862746}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Foam_Color: {r: 1, g: 1, b: 1, a: 0}
-    - _Horizon_Color: {r: 1, g: 0.47058815, b: 0, a: 1}
+    - _Foam_Color: {r: 1, g: 1, b: 1, a: 0.0627451}
+    - _Horizon_Color: {r: 1, g: 0.4705881, b: 0, a: 1}
     - _Intersection_Foam_Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Shallow_Color: {r: 0.45882344, g: 0.8, b: 0.8, a: 0.43137255}
+    - _Shallow_Color: {r: 0.45882353, g: 0.8, b: 0.8, a: 0.43137255}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Specular_Color: {r: 1, g: 0.99528295, b: 1, a: 0.1764706}
+    - _Specular_Color: {r: 0.9969515, g: 1, b: 0.99607843, a: 0.1764706}
     - _Wave_Directions: {r: 0, g: 0.5, b: 1, a: 0.2}
   m_BuildTextureStacks: []
